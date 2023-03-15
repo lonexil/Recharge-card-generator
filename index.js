@@ -69,22 +69,6 @@ function del(i) {
   // sharp();
   displayy();
 }
-// function hmm() {
-//   rem.forEach(function (element) {
-//     if (show.innerHTML == "Recharge sucessful") {
-//       element.stat = true;
-//     } else {
-//       element.stat = false;
-//     }
-//   });
-// }
-
-//  { Network:network.value, dateprinted:"2/14/2023",Amount:amount.value,pin:gen.value, stat:false}
-  // function recharge(){
-  //   rech.value=""
-  //   let index;
-  //   let pin=rech.value.slice(5,rech.valu)
-  // }
 function recharge(){
   let index;
   let pin=rech.value.slice(5,rech.value.length-1);
@@ -105,6 +89,22 @@ function recharge(){
   }
   displayy();
 }
+// function hmm() {
+//   rem.forEach(function (element) {
+//     if (show.innerHTML == "Recharge sucessful") {
+//       element.stat = true;
+//     } else {
+//       element.stat = false;
+//     }
+//   });
+// }
+
+//  { Network:network.value, dateprinted:"2/14/2023",Amount:amount.value,pin:gen.value, stat:false}
+  // function recharge(){
+  //   rech.value=""
+  //   let index;
+  //   let pin=rech.value.slice(5,rech.valu)
+  // }
 
 
 // function recharge() {
